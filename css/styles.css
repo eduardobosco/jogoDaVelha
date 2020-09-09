@@ -8,7 +8,11 @@ h1 {
 }
 
 
-/*Botoes*/
+/* botões */
+
+#buttons-container {
+    margin-bottom: 20px;
+}
 
 #buttons-container button {
     border: none;
@@ -17,18 +21,17 @@ h1 {
 }
 
 
-/*Jogo*/
+/* jogo */
 
 #container {
-    display: flex;
     width: 300px;
     margin: 0;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    margin-left: auto;
     margin-right: auto;
-    margin-top: 30px;
+    margin-left: auto;
 }
 
 .box {
@@ -81,28 +84,22 @@ h1 {
     margin-top: 17px;
 }
 
-
-/*Classe Esconder*/
-
-
-/*.hide {
+.hide {
     display: none !important;
-}*/
-
-
-/*Placar*/
+}
 
 #scoreboard-container {
     font-weight: bold;
     margin-top: 30px;
     font-size: 25px;
     position: relative;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
 }
 
 .score-box {
-    margin: 0 20px;
+    display: inline-block;
+    margin: 0px 20px;
 }
 
 #x-scoreboard {
@@ -120,7 +117,7 @@ h1 {
 }
 
 
-/*MSG Vitoria*/
+/* msg vitoria */
 
 #message p {
     position: absolute;
@@ -128,11 +125,10 @@ h1 {
     margin-right: auto;
     left: 0;
     right: 0;
-    top: 160px;
+    top: 150px;
     width: 500px;
     font-size: 50px;
-    background-color: black;
+    background-color: #000;
     color: #FFF;
     padding: 20px;
-    display: none;
 }
